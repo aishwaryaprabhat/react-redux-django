@@ -26,7 +26,8 @@ class Lead(models.Model):
 
 `python manage.py makemigrations leads`
 `python manage.py migrate`
-
+`python manage.py startapp frontend`
+`mkdir -p ./frontend/{static,templates}/frontend`
 
 
 
