@@ -24,10 +24,11 @@ class Lead(models.Model):
     created_at = models.DateTimeField(auto_now_add=True)
 ```
 
-`python manage.py makemigrations leads`
-`python manage.py migrate`
-`python manage.py startapp frontend`
-`mkdir -p ./frontend/{static,templates}/frontend`
-
+- `python manage.py makemigrations leads`
+- `python manage.py migrate`
+- `python manage.py startapp frontend`
+- `mkdir -p ./frontend/{static,templates}/frontend`
+- `npm init -y`
+- `npm i -D webpack webpack-cli`
 
 
